@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A910A75694AC7B3C38BF9A4 /* Pods_LetsEat_OferDrori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4956ACB87C0E832E0A17D1B /* Pods_LetsEat_OferDrori.framework */; };
 		BB3FB3A4268201610098FF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A3268201610098FF50 /* AppDelegate.swift */; };
 		BB3FB3A6268201610098FF50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A5268201610098FF50 /* SceneDelegate.swift */; };
 		BB3FB3A8268201610098FF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A7268201610098FF50 /* ViewController.swift */; };
@@ -15,6 +16,23 @@
 		BB3FB3B0268201620098FF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3FB3AE268201620098FF50 /* LaunchScreen.storyboard */; };
 		BB3FB3BB268201620098FF50 /* LetsEat_OferDroriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3BA268201620098FF50 /* LetsEat_OferDroriTests.swift */; };
 		BB3FB3C6268201620098FF50 /* LetsEat_OferDroriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3C5268201620098FF50 /* LetsEat_OferDroriUITests.swift */; };
+		BB77E6022687622500E49879 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6012687622500E49879 /* CategoryTableViewController.swift */; };
+		BB77E6042687625200E49879 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6032687625200E49879 /* MenuTableViewController.swift */; };
+		BB77E60B2687650A00E49879 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */; };
+		BB77E60D268765E500E49879 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60C268765E500E49879 /* MenuItem.swift */; };
+		BB77E60F2687671700E49879 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60E2687671700E49879 /* Order.swift */; };
+		BB77E6112687672D00E49879 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6102687672D00E49879 /* Categories.swift */; };
+		BB77E6132687675200E49879 /* PreparationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6122687675200E49879 /* PreparationTime.swift */; };
+		BB77E61526876B5F00E49879 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E61426876B5F00E49879 /* MenuController.swift */; };
+		BB77E61726876CD800E49879 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E61626876CD800E49879 /* LocalData.swift */; };
+		BB77E6192687715000E49879 /* UITableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */; };
+		BB782F8326877BFF00824586 /* AddToOrderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782F8226877BFF00824586 /* AddToOrderDelegate.swift */; };
+		BB782F8526877C6700824586 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782F8426877C6700824586 /* OrderTableViewController.swift */; };
+		BB782F8726877CBF00824586 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782F8626877CBF00824586 /* OrderConfirmationViewController.swift */; };
+		BBB074B5268B5CDB00433B0E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */; };
+		BBB074B7268B5CFF00433B0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB074B6268B5CFF00433B0E /* LoginViewController.swift */; };
+		BBC5C1F2268B0FE20005A919 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBC5C1F1268B0FE20005A919 /* GoogleService-Info.plist */; };
+		BBE23FE72690A5630059226E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE23FE62690A5630059226E /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A099644FD86927C5C44BE55 /* Pods-LetsEat-OferDrori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsEat-OferDrori.release.xcconfig"; path = "Target Support Files/Pods-LetsEat-OferDrori/Pods-LetsEat-OferDrori.release.xcconfig"; sourceTree = "<group>"; };
+		A4956ACB87C0E832E0A17D1B /* Pods_LetsEat_OferDrori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsEat_OferDrori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3FB3A0268201610098FF50 /* LetsEat-OferDrori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LetsEat-OferDrori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3FB3A3268201610098FF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB3FB3A5268201610098FF50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,25 @@
 		BB3FB3C1268201620098FF50 /* LetsEat-OferDroriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LetsEat-OferDroriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3FB3C5268201620098FF50 /* LetsEat_OferDroriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsEat_OferDroriUITests.swift; sourceTree = "<group>"; };
 		BB3FB3C7268201620098FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB77E6012687622500E49879 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		BB77E6032687625200E49879 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		BB77E60C268765E500E49879 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		BB77E60E2687671700E49879 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BB77E6102687672D00E49879 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		BB77E6122687675200E49879 /* PreparationTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationTime.swift; sourceTree = "<group>"; };
+		BB77E61426876B5F00E49879 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		BB77E61626876CD800E49879 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtension.swift; sourceTree = "<group>"; };
+		BB782F45268774FD00824586 /* LetsEat-OferDrori.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LetsEat-OferDrori.entitlements"; sourceTree = "<group>"; };
+		BB782F8226877BFF00824586 /* AddToOrderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToOrderDelegate.swift; sourceTree = "<group>"; };
+		BB782F8426877C6700824586 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		BB782F8626877CBF00824586 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BBB074B6268B5CFF00433B0E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBC5C1F1268B0FE20005A919 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBE23FE62690A5630059226E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C0497B454401764AB962AEB4 /* Pods-LetsEat-OferDrori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsEat-OferDrori.debug.xcconfig"; path = "Target Support Files/Pods-LetsEat-OferDrori/Pods-LetsEat-OferDrori.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A910A75694AC7B3C38BF9A4 /* Pods_LetsEat_OferDrori.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2F744CE6350F23E9968AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4956ACB87C0E832E0A17D1B /* Pods_LetsEat_OferDrori.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86D707BC0F73ABBFBE91897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0497B454401764AB962AEB4 /* Pods-LetsEat-OferDrori.debug.xcconfig */,
+				4A099644FD86927C5C44BE55 /* Pods-LetsEat-OferDrori.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BB3FB397268201610098FF50 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,8 @@
 				BB3FB3B9268201620098FF50 /* LetsEat-OferDroriTests */,
 				BB3FB3C4268201620098FF50 /* LetsEat-OferDroriUITests */,
 				BB3FB3A1268201610098FF50 /* Products */,
+				B86D707BC0F73ABBFBE91897 /* Pods */,
+				3A2F744CE6350F23E9968AF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +158,17 @@
 		BB3FB3A2268201610098FF50 /* LetsEat-OferDrori */ = {
 			isa = PBXGroup;
 			children = (
-				BB3FB3A3268201610098FF50 /* AppDelegate.swift */,
-				BB3FB3A5268201610098FF50 /* SceneDelegate.swift */,
-				BB3FB3A7268201610098FF50 /* ViewController.swift */,
-				BB3FB3A9268201610098FF50 /* Main.storyboard */,
 				BB3FB3AC268201620098FF50 /* Assets.xcassets */,
+				BB3FB3A9268201610098FF50 /* Main.storyboard */,
 				BB3FB3AE268201620098FF50 /* LaunchScreen.storyboard */,
+				BB782F45268774FD00824586 /* LetsEat-OferDrori.entitlements */,
+				BB77E609268762AD00E49879 /* Controller */,
+				BB77E6072687629500E49879 /* Model */,
+				BB3FB3A7268201610098FF50 /* ViewController.swift */,
+				BB77E61626876CD800E49879 /* LocalData.swift */,
 				BB3FB3B1268201620098FF50 /* Info.plist */,
+				BBC5C1F1268B0FE20005A919 /* GoogleService-Info.plist */,
+				BB782F8226877BFF00824586 /* AddToOrderDelegate.swift */,
 			);
 			path = "LetsEat-OferDrori";
 			sourceTree = "<group>";
@@ -128,6 +191,44 @@
 			path = "LetsEat-OferDroriUITests";
 			sourceTree = "<group>";
 		};
+		BB77E6072687629500E49879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB77E60C268765E500E49879 /* MenuItem.swift */,
+				BB77E60E2687671700E49879 /* Order.swift */,
+				BB77E6102687672D00E49879 /* Categories.swift */,
+				BB77E6122687675200E49879 /* PreparationTime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB77E609268762AD00E49879 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBB074B8268B5D1200433B0E /* Login */,
+				BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */,
+				BB77E6012687622500E49879 /* CategoryTableViewController.swift */,
+				BB77E6032687625200E49879 /* MenuTableViewController.swift */,
+				BB3FB3A3268201610098FF50 /* AppDelegate.swift */,
+				BB3FB3A5268201610098FF50 /* SceneDelegate.swift */,
+				BB77E61426876B5F00E49879 /* MenuController.swift */,
+				BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */,
+				BB782F8426877C6700824586 /* OrderTableViewController.swift */,
+				BB782F8626877CBF00824586 /* OrderConfirmationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBB074B8268B5D1200433B0E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */,
+				BBB074B6268B5CFF00433B0E /* LoginViewController.swift */,
+				BBE23FE62690A5630059226E /* User.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB3FB3CA268201620098FF50 /* Build configuration list for PBXNativeTarget "LetsEat-OferDrori" */;
 			buildPhases = (
+				CC12163F0B3A3ED24A8417D2 /* [CP] Check Pods Manifest.lock */,
 				BB3FB39C268201610098FF50 /* Sources */,
 				BB3FB39D268201610098FF50 /* Frameworks */,
 				BB3FB39E268201610098FF50 /* Resources */,
+				A98DF53F05EAAD2BD4B587D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3FB3B0268201620098FF50 /* LaunchScreen.storyboard in Resources */,
+				BBC5C1F2268B0FE20005A919 /* GoogleService-Info.plist in Resources */,
 				BB3FB3AD268201620098FF50 /* Assets.xcassets in Resources */,
 				BB3FB3AB268201610098FF50 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +357,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A98DF53F05EAAD2BD4B587D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsEat-OferDrori/Pods-LetsEat-OferDrori-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsEat-OferDrori/Pods-LetsEat-OferDrori-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsEat-OferDrori/Pods-LetsEat-OferDrori-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC12163F0B3A3ED24A8417D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsEat-OferDrori-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB3FB39C268201610098FF50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB074B7268B5CFF00433B0E /* LoginViewController.swift in Sources */,
+				BB77E61726876CD800E49879 /* LocalData.swift in Sources */,
 				BB3FB3A8268201610098FF50 /* ViewController.swift in Sources */,
+				BB77E6132687675200E49879 /* PreparationTime.swift in Sources */,
+				BB77E6112687672D00E49879 /* Categories.swift in Sources */,
 				BB3FB3A4268201610098FF50 /* AppDelegate.swift in Sources */,
+				BBB074B5268B5CDB00433B0E /* SignUpViewController.swift in Sources */,
+				BB77E61526876B5F00E49879 /* MenuController.swift in Sources */,
+				BB77E6042687625200E49879 /* MenuTableViewController.swift in Sources */,
+				BB77E60F2687671700E49879 /* Order.swift in Sources */,
+				BB77E60B2687650A00E49879 /* MenuItemDetailViewController.swift in Sources */,
+				BB782F8326877BFF00824586 /* AddToOrderDelegate.swift in Sources */,
 				BB3FB3A6268201610098FF50 /* SceneDelegate.swift in Sources */,
+				BB77E60D268765E500E49879 /* MenuItem.swift in Sources */,
+				BB782F8526877C6700824586 /* OrderTableViewController.swift in Sources */,
+				BB77E6022687622500E49879 /* CategoryTableViewController.swift in Sources */,
+				BB782F8726877CBF00824586 /* OrderConfirmationViewController.swift in Sources */,
+				BB77E6192687715000E49879 /* UITableViewControllerExtension.swift in Sources */,
+				BBE23FE72690A5630059226E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,17 +595,24 @@
 		};
 		BB3FB3CB268201620098FF50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0497B454401764AB962AEB4 /* Pods-LetsEat-OferDrori.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = "LetsEat-OferDrori/LetsEat-OferDrori.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LetsEat-OferDrori/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ofer.LetsEat-OferDrori";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,17 +620,24 @@
 		};
 		BB3FB3CC268201620098FF50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A099644FD86927C5C44BE55 /* Pods-LetsEat-OferDrori.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = "LetsEat-OferDrori/LetsEat-OferDrori.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LetsEat-OferDrori/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ofer.LetsEat-OferDrori";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,7 +648,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LetsEat-OferDroriTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,6 +659,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ofer.LetsEat-OferDroriTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsEat-OferDrori.app/LetsEat-OferDrori";
@@ -493,7 +672,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LetsEat-OferDroriTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,6 +683,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ofer.LetsEat-OferDroriTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsEat-OferDrori.app/LetsEat-OferDrori";
